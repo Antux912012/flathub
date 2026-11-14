@@ -20,8 +20,10 @@ cleanup:
 modules:
   - name: imladris
     buildsystem: meson
+    config-opts:
+      - --buildtype=release
     sources:
       - type: git
         url: https://github.com/Antux912012/imladris.git
-        tag: v0.15.2
-        commit: 6ecef65c0311540d6b2f6601a7c4e1717a52cf96
+        tag: v0.25.0
+        commit: c8be16ce6361eeeb86705767d1b0fde5492f67f8
